@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
+import '../styles/index.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+// eslint-disable-next-line react/prop-types
+const App = ({ Component, pageProps }) => <Component {...pageProps} />;
 
-export default MyApp
+export default App;
